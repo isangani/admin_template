@@ -21,10 +21,10 @@ margin-left: 15%;
     margin-top: 3%;
 }
 .navpadding{
-    padding: 2.5rem 0rem 0rem 1.563rem;
+    padding: 2rem 0rem 0rem 1.563rem;
 }  
 .nav{
-    height: 40rem;
+    height: 38rem;
 }
 .nav-link span{
 font-size: 1rem;
@@ -54,7 +54,7 @@ background-position-x: 0.625rem;
     background-color: white;
 }
 .padding10{
-    padding: 0.7rem 0.7rem 0.1rem 0.7rem;
+    padding: 0.75rem;
 }
 .mb{
     margin-top: auto;
@@ -110,19 +110,38 @@ table td:nth-child(1){
  .table-hover,.pointer{
     cursor: pointer;
  }
+ .iconbtn{
+ height: 35px;
+ width: 35px;
+ }
+ .rotate{
+    transform: rotate(180deg);
+ }
+ .display{
+    display: none;
+ }
+ .w10{
+    width: 8%;
+ }
+ .w90{
+    width: 92%;
+ }
+ .textcenter{
+    text-align: center;
+ }
+ .imgpadding{
+    padding: 2rem 0rem 0rem 0rem;
+ }
 @media  screen and (min-width:62rem) and (max-width:75rem) {
-    .fl{
-        width: 19.2%;
-    }
-    .fr{
-        width: 80.8%;
-    }
     .navpadding{
-        padding: 2.5rem 0rem 0rem 1.25rem;
+        padding: 1.8rem 0rem 0rem 0rem;
     }
     .box{  
         padding: 0.313rem;
     }
+    .mleft{
+        margin-left: 0.1rem;
+     }
 }
 @media  screen and (min-width:36rem) and (max-width:62rem) { 
     .fl{
@@ -148,7 +167,10 @@ table td:nth-child(1){
         font-weight: 400;
     }
     .fr{
-        padding: 1rem 0.938rem 0.3rem 0.938rem;
+        padding: 1rem 0.938rem 0.4rem 0.938rem;
+    }
+    li span,.iconbtn{
+        display:none;
     }        
 }
 @media screen  and (min-width:12.5rem) and (max-width:48rem){
@@ -163,14 +185,27 @@ table td:nth-child(1){
     } 
     .table{
         padding: 0.625rem;
-    }   
+    } 
+    .padding10{
+        padding: 0.45rem;
+    }
+    .profile{
+        width: 2.288rem;
+        height: 2.5rem;
+    }
+    .bagdeyellow{
+        padding: 0.313rem; 
+    }
+    .table{
+        width:45.625rem;
+    }
+    .mtop5{
+        margin-top: 5%;
+    }
 }
 @media screen and (min-width:12.5rem) and (max-width:36rem) { 
     .fl{
         width: 11.5%;
-    }
-    .nav{
-        height: 60rem;
     }
     .fr{
         width: 88.5%;
@@ -184,18 +219,11 @@ table td:nth-child(1){
     .search{
          width:10.625rem;
     }
-    .profile{
-        width: 2.188rem;
-        height: 2.5rem;
-    }
-    .padding10{
-        padding: 0.4rem;
-    }
     .tcenter{
         text-align: center;
         margin-top: 2%;
+    }  
+    .nav{
+        height: 45rem;
     }
-    .bagdeyellow{
-        padding: 0.313rem; 
-    }    
 }

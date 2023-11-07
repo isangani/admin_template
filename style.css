@@ -1,7 +1,7 @@
 .sidebartitle{
 color: #013CC6;
-margin-top: 15%;
-margin-left: 15%;
+margin-top:2.09rem;
+margin-left: 2.09rem;
 }
 .poppins,.nav-link span{
     font-family: Poppins;
@@ -18,7 +18,13 @@ margin-left: 15%;
    margin-left: 0.438rem;
 }
 .mtop{
-    margin-top: 3%;
+    margin-top:0.45rem;
+}
+.mtop4{
+    margin-top: 1rem;
+}
+.mtop5{
+    margin-top: 2rem;
 }
 .navpadding{
     padding: 2rem 0rem 0rem 1.563rem;
@@ -101,18 +107,15 @@ table td:nth-child(1){
  .table>:not(caption)>*>*{
  padding: 0.938;
  }
- .mtop2{
-    margin-top: 2%;
- }
  .form-check-input{
-    margin-right: 7%;
+    margin-right: 0.7rem;
  }
  .table-hover,.pointer{
     cursor: pointer;
  }
  .iconbtn{
- height: 35px;
- width: 35px;
+ height: 2.188rem;
+ width: 2.188rem;
  }
  .rotate{
     transform: rotate(180deg);
@@ -153,7 +156,7 @@ table td:nth-child(1){
 }
 @media screen and (min-width:12.5rem) and (max-width:62rem) {
     .sidebartitle{
-        margin-left: 0%;
+        margin-left: 0rem;
         text-align: center;
     }
     .navpadding{
@@ -182,6 +185,7 @@ table td:nth-child(1){
     }
     .search{
         width:21.875rem;
+        height: 2.288rem;
     } 
     .table{
         padding: 0.625rem;
@@ -198,9 +202,6 @@ table td:nth-child(1){
     }
     .table{
         width:45.625rem;
-    }
-    .mtop5{
-        margin-top: 5%;
     }
 }
 @media screen and (min-width:12.5rem) and (max-width:36rem) { 
@@ -221,9 +222,15 @@ table td:nth-child(1){
     }
     .tcenter{
         text-align: center;
-        margin-top: 2%;
     }  
     .nav{
         height: 45rem;
     }
+    .mtop5{
+        margin-top: 1.3rem;
+    }
+    .mtop1{
+        margin-top: 0.4rem;
+    }
+    
 }
